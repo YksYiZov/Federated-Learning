@@ -138,7 +138,7 @@ An experiment about Federated-Learning from this [repository](https://github.com
 两者的区别在于是否使用生成器作为训练集的补充。
 
 #### 思考
-没办法比上正常训练MNIST的正确率，原因可能在于生成器生成的图像仍然不够真实，下一步会尝试用GAN方法来训练生成器。
+相较普通进行的MNIST，在训练轮数足够的情况下，效果更好。因为扩充了其他类的数据，让Sever合成模型时更准确。
 
 数据集不够复杂，异构不够明显，或许在更复杂的数据集中可能效果更好。
 
